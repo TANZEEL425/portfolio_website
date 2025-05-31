@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanzeel Portfolio</title>
+  <!-- link--css--file -->
+  <link rel="stylesheet" href="style.css"/>
+  <!-- link-fontosma-cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div id="menu-toggle">
+         <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+
+      <label class="logo"><h3>Tanzeel</h3></label>
+
+     <ul class="menu" id="menu">
+        <div class="close-btn" onclick="closeSidebar()">
+          <i class="fa-solid fa-xmark"></i>
+         </div>
+         <li style="height:30px;"></li>
+        <li><a href="#About" onclick="selectNav(this)">About me </a></li>
+        <li><a href="#Skills" onclick="selectNav(this)">Skills</a></li>
+        <li><a href="#blog" onclick="selectNav(this)">blog</a></li>
+        <li><a href="#Contact" onclick="selectNav(this)">Contact </a></li> 
+      </ul>
+      
+      <div class="connect">
+        <button>Connect Me</button>
+      </div>
+    </nav>
+  </header>
+  <!-- section-nav-content -->
+   <section id="#"> 
+     <div class="personl-img">
+      <img src="/images/portfolio.jpg" alt="" class="img">
+     </div>
+     <div class="nav-content">
+      <h1><span>I'am Tanzeel</span> frontend <br> developer based in pakistan.</h1>
+      <p>I craft user-friendly websites using Html, Css, javascript. let's Create Amazing <br> digital exprincess together!</p>
+     </div>
+     <div class="btn">
+     <button class="btn-1">Connect Me</button>
+          <button class="btn-2"><a href="#">My resume</a></button>
+     </div>
+   </section>
+   <!-- About-section -->
+   <section id="About">
+    <div class="About">
+    <h1>About <span>me</span></h1>
+    </div>
+    <div class="About-main-div">
+   <div class="About-img">
+      <img src="/images/portfolio.jpg" alt="" class="img">
+     </div>
+    <div class="About-para">
+  <p>
+    I am a passionate  Frontend Developer skilled in creating <br>
+    dynamic, user-friendly web interfaces. With a strong understanding of HTML, <br>
+    CSS, JavaScript, and modern frameworks, I focus on designing responsive and <br>
+    visually appealing applications. My goal is to transform ideas into engaging <br>
+    digital experiences while continuously learning and improving my craft.
+  </p>
+</div>
+    </div>
+   </section>
+
+   <!-- Skills Section -->
+    <section id="Skills">
+     <div class="heading">
+      <h1>Skills & <span>Technologies</span></h1>
+      <p>I love with these technologies to
+        build amazing things.Always excited to 
+        learn and explore more!
+      </p>
+     </div>
+
+<div class="skills-grid">
+  <div class="grid-1">
+<i class="fa-brands fa-html5"></i>
+<span>HTML</span>
+  </div>
+   <div class="grid-1">
+  <i class="fa-brands fa-css3-alt"></i>
+  <span>css</span>
+  </div>
+     <div class="grid-1">
+      <i class="fa-brands fa-js"></i>
+      <span>JavaScript</span>
+     </div>
+         <div class="grid-1">
+      <i class="fa-brands fa-wordpress-simple"></i> 
+      <span>wordpress</span>
+         </div>
+</div>
+
+
+
+<div class="skills-grid">
+  <div class="grid-1">
+ <i class="fa-brands fa-github"></i>
+
+<span>github</span>
+  </div>
+   <div class="grid-1">
+    <i class="fa-brands fa-bootstrap"></i>
+
+  <span>bootstrap</span>
+  </div>
+     <div class="grid-1">
+      <i class="fa-brands fa-figma"></i>
+
+      <span>figma</span>
+     </div>
+</div>
+</section>
+ <!-- section  blog -->
+<section id="blog">
+  <div class="heading">
+    <h1>Blog<span> website</span></h1>
+  </div>
+  <div class="blog-main-div">
+<div class="blog-div">
+  <img src="/images/website1.jpg" alt="">
+  <img src="/images/website2.jpg" alt="">
+  <img src="/images/Website4.jpg" alt="">
+</div>
+<div class="blog-div">
+  <img src="/images/iOS3.jpg" alt="">
+  <img src="/images/iOS2.jpg" alt="">
+  <img src="/images/android2.jpg" alt="">
+</div>
+  </div>
+   <!-- contact-section -->
+   
+      <section id="Contact">
+  <div class="heading">
+    <h1>Get in<span> touch</span></h1>
+  </div>
+   <div class="contact-form">
+   <input type="text" placeholder="Enter your name">
+        <input type="text" placeholder="inter your Email">
+        <textarea name="messsage" id="Message" placeholder="Meassage"></textarea>
+          
+      </div>
+       <div class="connect-button-1">
+        <button>submit now</button>
+      </div>
+</section>
+
+
+    </section>
+
+    <!-- section-footer -->
+     <footer>
+    <div class="footer-icons">
+      <a href="https://github.com/TANZEEL425"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+   <a href="https://pk.linkedin.com/in/tanzeel-farooq-5ba118331"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+    <div class="footer-p">
+    <p>@Copyright 2025 Made by Tanzeel</p>
+    </div>
+     </footer>
+  <script src="index.js">
+
+  </script>
+ 
+</body>
+</html>
+
